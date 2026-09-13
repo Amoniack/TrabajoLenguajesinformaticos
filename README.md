@@ -1,5 +1,19 @@
-# TrabajoLenguajesinformaticos
-# TrabajoLenguajesinformaticos
-Colaboradores: Emmanuel Joel Orellana usuario:ema92rhcpunahur
-se cargo los titulos y se hizo una maqueta de la pagina principal para darnos una idea del desarrolo de la aplicacion web
-Agregue colaboradores en el README para probar como es el manejo del github. No modifique el codigo aun.
+# Trabajo Práctico - Lenguajes Informáticos
+
+Repositorio para el trabajo práctico grupal de la materia. La página web es sobre una ciudad ficticia llamada Eudamon, enfocada en turismo y bienestar.
+
+## Integrantes
+- Emmanuel Joel Orellana (GitHub: ema92rhcpunahur)
+- Rodrigo Berrios
+- Ramiro 
+- Claudia Núñez
+
+## Páginas del sitio
+- **index.html**: Página principal de inicio.
+- **pages/ciudad.html**: Información general de la ciudad.
+- **pages/lugares.html**: Lugares y atractivos turísticos.
+- **pages/contacto.html**: Datos de contacto de la oficina de turismo.
+
+## Notas
+- Se armó la maqueta y la estructura básica en HTML de las páginas.
+- Cada integrante trabaja sobre su propia rama para no pisar el código de los demás.
