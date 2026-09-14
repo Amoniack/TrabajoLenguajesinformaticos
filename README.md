@@ -7,6 +7,7 @@ Repositorio para el trabajo práctico grupal de la materia. La página web es so
 - Rodrigo Berrios
 - Ramiro 
 - Claudia Núñez
+- Ibarra Gustavo Alejandro
 
 ## Páginas del sitio
 - **index.html**: Página principal de inicio.
