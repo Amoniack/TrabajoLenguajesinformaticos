@@ -1,0 +1,21 @@
+/* Secciones de contenido */
+
+h2 {
+  font-size: 2rem;
+  color: #1A2B4A;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.empresa {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #028090;
+}
+
+.empresa h3 {
+  color: #028090;
+  font-size: 1.5rem;
+}
