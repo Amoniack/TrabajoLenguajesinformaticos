@@ -22,6 +22,6 @@ p {
 }
 
 .empresa h3 {
-  color: #028090;
+  color: var(--color-primario);
   font-size: 1.5rem;
 }
