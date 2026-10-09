@@ -2,9 +2,14 @@
 :root {
   --color-primario: #028090;
   --color-secundario: #1A2B4A;
+  --color-acento: #E8611A;
 }
 
 /* Secciones de contenido */
+h1 {
+  font-size: 2.5rem;
+  color: var(--color-acento);
+}
 
 h2 {
   font-size: 2rem;
