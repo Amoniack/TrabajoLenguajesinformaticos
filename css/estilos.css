@@ -73,6 +73,7 @@ nav a:hover {
 }
 
 /* Contenido principal */
+
 main {
   padding: 1.5rem 0;
 }
@@ -101,6 +102,11 @@ h2 {
   color: var(--color-secundario);
 }
 
+h3 {
+  font-size: 1.5rem;
+  color: var(--color-primario);
+}
+
 p {
   margin-bottom: 1rem;
 }
@@ -119,6 +125,73 @@ section {
   font-size: 1.5rem;
 }
 
+/* La Ciudad */
+dl {
+  margin-bottom: 1rem;
+}
+
+dt {
+  margin-top: 0.75rem;
+}
+
+dd {
+  margin-left: 1rem;
+}
+
+#barrios article {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid var(--color-acento);
+}
+
+#barrios article p {
+  margin-bottom: 0;
+}
+
+/* Formulario */
+form {
+  max-width: 600px;
+}
+
+label {
+  font-weight: 700;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid var(--color-secundario);
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--color-primario);
+  border-color: var(--color-primario);
+}
+
+button {
+  background-color: var(--color-primario);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-secundario);
+}
 
 /* Pagina de eventos */
 .encabezado {
