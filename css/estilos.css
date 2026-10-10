@@ -1,8 +1,93 @@
 /* Variables */
+
 :root {
   --color-primario: #028090;
   --color-secundario: #1A2B4A;
   --color-acento: #E8611A;
+  --color-fondo: #F7F9FA;
+  --color-texto: #1A1A1A;
+  --fuente-principal: 'Nunito';
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: var(--fuente-principal), sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Listas */
+ul,
+ol {
+  padding-left: 1.5rem;
+}
+
+/* Header */
+header {
+  background-color: var(--color-secundario);
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+header p {
+  color: white;
+  margin-bottom: 0;
+}
+
+/* Navegación */
+nav {
+  background-color: var(--color-secundario);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: var(--color-primario);
+}
+
+/* Contenido principal */
+main {
+  padding: 1.5rem 0;
+}
+
+/* Footer */
+footer {
+  background-color: var(--color-secundario);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin-bottom: 0;
 }
 
 /* Secciones de contenido */
