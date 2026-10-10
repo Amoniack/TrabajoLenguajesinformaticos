@@ -1,27 +1,80 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eventos - Eudamon</title>
-</head>
-<body>
-  <h1>Eudamon</h1>
-  <h2>Eventos</h2>
-  <p>
-    <strong>Ferias y actividades culturales de nuestra ciudad.</strong>
-  </p>
-  <nav>
-    <ol>
-      <li>Feria de Artesanos los Viernes, Sabados y Domingos, 14:00hrs a 21:00hrs
-      <img  src="../img/FeriaArtesanos.webp" alt="Feria de Artesanos" width="400">
-       </li>
-    <li>Festival de Danzas los Sábados y Domingos de 18:00hrs a 22:00hrs
-        <img src="../img/Folcklore.jpg" alt="Festival de Danzas" width="400">
-    </li>
-  </nav>
-  <footer>
-    <p>Eudamon 2026. Oficina de Turismo</p>
-  </footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilos.css" />
+    <title>Eventos - Eudamon</title>
+  </head>
+  <body>
+
+    <header class="encabezado">
+      <h1 class="titulo-principal">Eudamon</h1>
+      <h2 class="subtitulo">Nuestros Eventos</h2>
+      <p class="descripcion-pagina">
+        <strong>Ferias y actividades culturales de la ciudad.</strong>
+      </p>
+      <p class="bajada header">
+        Cada fin de semana nuestra ciudad ofrece una variedad de eventos
+        culturales y sociales. Te invitamos a participar y disfrutar de ellos.
+      </p>
+    </header>
+
+   
+    <main class="contenedor-eventos">
+      <!-- 1. Feria de Artesanos -->
+      <article class="tarjeta-evento">
+        <div class="contenido-evento">
+          <h3 class="titulo-evento">Feria de Artesanos</h3>
+          <img
+            src="../img/FeriaArtesanos.webp"
+            alt="Feria de Artesanos"
+            class="imagen-evento"
+          />
+        </div>
+      </article>
+
+      <article class="tarjeta-evento">
+        <div class="contenido-evento">
+          <h3 class="titulo-evento">Recital Urbano</h3>
+          <img
+            src="../img/RecitalUrbano.webp"
+            alt="Recital Urbano"
+            class="imagen-evento"
+          />
+        </div>
+      </article>
+
+  
+      <article class="tarjeta-evento">
+        <div class="contenido-evento">
+          <h3 class="titulo-evento">Torneo de Truco</h3>
+          <img
+            src="../img/torneotruco.webp"
+            alt="Torneo de Truco"
+            class="imagen-evento"
+          />
+        </div>
+      </article>
+
+    
+      <article class="tarjeta-evento">
+        <div class="contenido-evento">
+          <h3 class="titulo-evento">Festival de Danzas</h3>
+          <img
+            src="../img/Folcklore.jpg"
+            alt="Festival de Danzas"
+            class="imagen-evento"
+           
+          />
+        </div>
+      </article>
+    </main>
+
+
+    <footer class="pie-pagina">
+      <p>Eudamon 2026. Oficina de Turismo</p>
+    </footer>
+  </body>
+  
 </html>
