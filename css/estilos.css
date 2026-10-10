@@ -1,8 +1,37 @@
 /* Variables */
+
 :root {
   --color-primario: #028090;
   --color-secundario: #1A2B4A;
   --color-acento: #E8611A;
+  --color-fondo: #F7F9FA;
+  --color-texto: #1A1A1A;
+  --fuente-principal: 'Nunito';
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  font-family: var(--fuente-principal), sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Listas */
+ul,
+ol {
+  padding-left: 1.5rem;
 }
 
 /* Secciones de contenido */
