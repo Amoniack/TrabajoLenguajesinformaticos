@@ -148,6 +148,12 @@ dd {
   margin-bottom: 0;
 }
 
+/* Imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* Formulario */
 form {
   max-width: 600px;
