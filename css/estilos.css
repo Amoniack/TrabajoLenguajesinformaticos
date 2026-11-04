@@ -236,3 +236,7 @@ button:hover {
   text-align: center;
   padding: 1rem;
 }
+/* Bootstrap - personalizaciones */
+.navbar-nav {
+  padding: 0;
+}
