@@ -249,4 +249,11 @@ button:hover {
 }
 .empresa {
   flex: 1 1 280px;
+  position: relative;
+}
+.insignia {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: var(--color-acento);
 }
