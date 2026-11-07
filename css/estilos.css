@@ -240,6 +240,20 @@ button:hover {
 .navbar-nav {
   padding: 0;
 }
+#barrios article {
+  border-left: none;
+  padding: 0 0.75rem;
+  margin-bottom: 0;
+}
+.card {
+  border-color: var(--color-primario);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
 
 /* Flexbox - lista de empresas */
 .Lista-Empresas {
