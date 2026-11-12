@@ -271,3 +271,13 @@ button:hover {
   right: 0.5rem;
   background-color: var(--color-acento);
 }
+/* Formulario - mensajes de validacion */
+.mensaje-error {
+  color: #c62828;
+  font-weight: 700;
+}
+
+.mensaje-exito {
+  color: #2e7d32;
+  font-weight: 700;
+}
