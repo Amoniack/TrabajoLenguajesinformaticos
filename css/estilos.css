@@ -240,6 +240,14 @@ button:hover {
 .navbar-nav {
   padding: 0;
 }
+.btn-primary {
+  --bs-btn-bg: var(--color-primario);
+  --bs-btn-border-color: var(--color-primario);
+  --bs-btn-hover-bg: var(--color-secundario);
+  --bs-btn-hover-border-color: var(--color-secundario);
+  --bs-btn-active-bg: var(--color-secundario);
+  --bs-btn-active-border-color: var(--color-secundario);
+}
 #barrios article {
   border-left: none;
   padding: 0 0.75rem;
